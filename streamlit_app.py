@@ -1,6 +1,5 @@
-import streamlit as st
+ import streamlit as st
+   st.title("🎈 My new app")
 
-st.title("my apps")
-
-if st.button("greet"):
-    st.write("Hello! Welcome to the app.")
+   if st.button("Show Message"):
+     st.info("This is your message box!")
