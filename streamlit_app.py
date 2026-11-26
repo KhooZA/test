@@ -1,3 +1,5 @@
-numbers = [1, 2, 3, 4, 5, 6, 7, 8]
-records = ['Jackson', 10, ['TES6313', 'A+']]
-print(records[2][1])
+def greet(name: str, message: str = "Hello") -> str:
+    return f"{message}, {name}!"
+
+print(greet("Alice"))                
+print(greet("Bob", "Welcome back"))  
