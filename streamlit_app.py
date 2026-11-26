@@ -1,5 +1,6 @@
-def greet(name: str, message: str = "Hello") -> str:
-    return f"{message}, {name}!"
+import streamlit as st
 
-print(greet("Alice"))                
-print(greet("Bob", "Welcome back"))  
+st.title("my apps")
+
+if st.button("greet"):
+    st.write("Hello! Welcome to the app.")
